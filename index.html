@@ -8,6 +8,47 @@
     <script src="./js/script.js" defer></script>
 </head>
 <body>
-    
+    <h1>Jogo da Velha</h1>
+    <div id="button-container">
+        <button id="button-two-player">2 Jogadores</button>
+        <button id="button-ia-player">Contra IA</button>
+    </div>
+
+    <div id="main-container" class="hide">
+        <div class="box" id="block-1"></div>
+        <div class="box" id="block-2"></div>
+        <div class="box" id="block-3"></div>
+        <div class="box" id="block-4"></div>
+        <div class="box" id="block-5"></div>
+        <div class="box" id="block-6"></div>
+        <div class="box" id="block-7"></div>
+        <div class="box" id="block-8"></div>
+        <div class="box" id="block-9"></div>
+
+        <div id="main-container-scoreboard">
+            <span class="scorebox">
+                <span class="scorebox-x">X</span>: 
+                <span class="scorebox-plate-1">
+                    0
+                </span>
+            </span>
+            
+            <span class="scorebox">
+                <span class="scorebox-o"></span>: 
+                <span class="scorebox-plate-2">
+                    0
+                </span>
+            </span>
+        </div>
+    </div>
+
+    <div class="hide">
+        <div class="hide-x">x</div>
+        <div class="hide-o"></div>
+    </div>
+
+    <div id="message" class="hide">
+        <p></p>
+    </div>
 </body>
 </html>
